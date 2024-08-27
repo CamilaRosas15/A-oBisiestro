@@ -9,5 +9,9 @@ describe("Es Bisiestro", () => {
     //const result = esBisiestro(5);
     expect(esBisiestro(5)).toEqual(false);
   });
+  it("Todo año dividido entre 400 es año bisiestro", () => {
+    //const result = esBisiestro(5);
+    expect(esBisiestro(2000)).toEqual(true);
+  });
 });
 
