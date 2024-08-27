@@ -1,4 +1,4 @@
-function esBisiestro(anio)
+function esBisiesto(anio)
 {
     if(anio % 400 == 0 ){
         return true;
@@ -16,4 +16,4 @@ function esBisiestro(anio)
     return false;
 }
 
-export default esBisiestro;
+export default esBisiesto;
