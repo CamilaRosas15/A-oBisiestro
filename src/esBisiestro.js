@@ -1,6 +1,10 @@
 function esBisiestro(anio)
 {
-    return true;
+    if(anio === 4)
+    {
+        return true;
+    }
+    return false;
 }
 
 export default esBisiestro;
